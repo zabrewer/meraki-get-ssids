@@ -1,7 +1,7 @@
 Meraki Get SSIDs
 -----------------
 
-# Description
+## Description
 
 meraki - get_ssids.py
 
@@ -24,7 +24,7 @@ Common use cases for this tool:
 
 Install and more use examples below.
 
-# Installation
+## Installation
 
 Python Virtual Environment is the preferred  ered install method but to install to your default python (3.5 or newer):
 **1. Clone this repository locally**
@@ -37,7 +37,7 @@ git clone https://github.com/zabrewer/meraki-get-ssids.git
 pip install -r requirements.txt
 ```
 
-## Installing to a Python Virtual Environment
+### Installing to a Python Virtual Environment
 
 Note: For Mac OSX, replace "python" with "python3" and for both platforms, make sure the output of python -v (or python3 -v) is 3.5 or greater.
 
@@ -89,7 +89,7 @@ For Mac
 deactivate
 ```
 
-# Example Use
+## Example Use
 
 At a minimum, an API key that has access to the given org should be supplied as well as a Meraki Dashboard Organization name.  
 
@@ -138,9 +138,9 @@ medium - maximum  concurrent requests = 4
 fast - maximum  concurrent requests = 6
 ludacris - maximum  concurrent requests = 8
 
-# Example CSV Output
+## Example CSV Output
 Note: with small changes to the python file other data can be added to the CSV
 
 | OrgName    | NetworkName    | SSIDName | SSIDEnabled | SplashPage | RadiusServers | AdminSplash | WalledGardenEnabled | WalledGardenRanges |
-|:----------------------|-----------|------|------|------|------|------|------|------|------|
+|:----------------------|-----------|------|------|------|------|------|------|------|
 | My Org Name | MyNetworkName | MySSID | Yes | Password-protected with custom RADIUS | whatever-your-radius-srv.elb.us-east-1.amazonaws.com | https://random.execute-api.us-east-1.amazonaws.com/you/url | Yes | WHATEVER.execute-api.us-east-1.amazonaws.com, WHATEVER2.execute-api.us-east-1.amazonaws.com, *.YOURDOMAIN.com |
