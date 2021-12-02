@@ -1,4 +1,4 @@
-Meraki Get SSIDs
+# Meraki Get SSIDs
 -----------------
 
 ## Description
