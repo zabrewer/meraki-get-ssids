@@ -141,6 +141,6 @@ ludacris - maximum  concurrent requests = 8
 # Example CSV Output
 Note: with small changes to the python file other data can be added to the CSV
 
-| OrgName    | NetworkName    | SSIDName | SSIDEnabled | SplashPage | RadiusServers | RadiusServers | AdminSplash | WalledGardenEnabled | WalledGardenRanges |
+| OrgName    | NetworkName    | SSIDName | SSIDEnabled | SplashPage | RadiusServers | AdminSplash | WalledGardenEnabled | WalledGardenRanges |
 |:----------------------|-----------|------|------|------|------|------|------|------|------|
 | My Org Name | MyNetworkName | MySSID | Yes | Password-protected with custom RADIUS | whatever-your-radius-srv.elb.us-east-1.amazonaws.com | https://random.execute-api.us-east-1.amazonaws.com/you/url | Yes | WHATEVER.execute-api.us-east-1.amazonaws.com, WHATEVER2.execute-api.us-east-1.amazonaws.com, *.YOURDOMAIN.com
